@@ -3,6 +3,7 @@
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
-    qDebug() << "Hello World!!!";
+    QString message = "Hello World!!!";
+    qDebug() << message;
     return a.exec();
 }
