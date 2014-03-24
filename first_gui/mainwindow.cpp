@@ -6,7 +6,9 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    ui->pushButton->setText("FirstButton");
+    ui->pushButton->setText("Close");
+    ui->pushButton_2->setText("Cut");
+    ui->pushButton_3->setText("Paste");
 }
 
 MainWindow::~MainWindow()
